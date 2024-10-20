@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Completion Tracker</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TO-DO LIST</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter your task here">
+    <button onclick="addTask()">Add Task</button>
+    
+    <ul id="taskList"></ul>
+    
+    <div class="progress-container">
+      <p>Progress: <span id="progress">0%</span></p>
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
+
+
+
